@@ -12,6 +12,7 @@ Version 1.0 · Reviewed 2026-10-20 · Proposed baseline
 - [Security & Compliance](./SECURITY-COMPLIANCE.md)
 - [Research & Decisions](./RESEARCH-DECISIONS.md)
 - [Reference Video Analysis — Vusa AI](./VIDEO-REFERENCE-ANALYSIS.md)
+- [Vusa AI Requirements & Android USSD Feasibility Addendum](./VUSA-AI-ANDROID-USSD-ADDENDUM.md)
 
 FinXchange is a Nigeria-first, offline-aware financial access app. The app may display permitted cached information and save local drafts without mobile data. A transfer, bill payment, airtime purchase, or balance refresh is not complete until an authorized provider confirms it. Offline UI is not offline settlement.
 
