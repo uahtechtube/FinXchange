@@ -96,3 +96,6 @@ sequenceDiagram
   A->>F: Check transaction status
   F-->>A: Authoritative state
   A-->>U: Receipt or pending guidance
+
+## Assistant / chat flow informed by reference video
+Dashboard or Chat → type/speak request or tap Quick Command → parse to a typed intent → clarify missing recipient/amount/service → for balance, fetch provider data and show last-sync time if cached → for transfer/cash-out, validate capability, beneficiary, fees, limits and risk → show review summary → user confirms/cancels → secure step-up/provider authentication if required → submit once with idempotency key → show pending/check-status on ambiguous outcome → show receipt only after authoritative confirmation. Every task must remain available through ordinary forms and buttons if AI or voice is unavailable. Do not present cash-out as supported until a contracted provider confirms it.
