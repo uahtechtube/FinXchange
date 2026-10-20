@@ -50,3 +50,6 @@ Avoid: “Offline payment successful,” unsupported “instant transfer” clai
 
 ## Research
 Prototype with 5–8 representative users. Test whether users distinguish cached/live balances, understand offline drafts, recover from transfer timeout, find references and raise disputes. Measure task completion and misunderstandings; revise accordingly.
+
+## Reference-video design direction: conversational assistant
+Add an optional Chat tab with a clear text composer, send action, microphone affordance only when voice is supported, audio playback controls, and Quick Commands such as Check balance and Send money. Keep conventional Home, Services, Favourites/Beneficiaries, Activity, and Settings navigation available; final tab labels should be validated against the existing app. For transfers, render the assistant's interpretation as a structured review card rather than a free-form message: recipient, destination (masked), amount/currency, fee, total debit, and Confirm/Cancel. Show progress and state labels clearly. A spoken or chat response is never itself proof of settlement. Use provider-owned secure PIN/authorization UI where required; never collect PINs in the chat composer.
